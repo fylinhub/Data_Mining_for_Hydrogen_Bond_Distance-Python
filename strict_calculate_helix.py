@@ -53,8 +53,6 @@ for name in list1:
 			for chain in model:
 				for residue in chain:
 					try:
-						#if chain[i]: 
-						#	if chain[j]:
 						rlist=residue.get_id()
 						i = int(rlist[1])
 						j=i+4
