@@ -21,6 +21,9 @@ nf = open('fail.list', 'w')
 negative=0
 positive=0
 
+## read the PDBID from Protein Data Bank 
+## In this example, the protein structures matches: 1) resolution of <=1.5 Angstrom and
+## 2) secondary structure has: 10 or more percent of elements are Alpha Helical 
 pdbfile = open('all_helix_pdb_0.1_r0.15', 'r')     
 temp = pdbfile.readline()
 list1 = temp.split()
